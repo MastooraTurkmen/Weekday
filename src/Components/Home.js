@@ -3,6 +3,8 @@ import useFetch from './useFetch';
 
 const Home = () => {
     const { search, isLoading } = useFetch()
+    // useStates for readMore
+    const [readMore, setReadMore] = useState(false);
 
     return (
         <div className="card-container">
