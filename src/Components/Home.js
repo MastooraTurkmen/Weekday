@@ -37,6 +37,21 @@ const Home = () => {
                             </div>
                             <p className="salary">Estimated Salary: {minJdSalary} - {maxJdSalary} {salaryCurrencyCode} ✅</p>
                         </header>
+
+                        <div className="about">
+                            <div className="about-info">
+                                <h2 className="about-company">About Company:</h2>
+                                <h3 className="about-us">About us</h3>
+                                <p className="about-text">
+                                    {jobDetailsFromCompany}
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <button className="button">
+                            ⚡
+                            Easy Apply
+                        </button>
                     </div>
                 )
             })) : (
