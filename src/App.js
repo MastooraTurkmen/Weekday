@@ -1,6 +1,8 @@
+import Home from "./Components/Home";
+
 function App() {
   return (
-    <h1>Weekday</h1>
+    <Home />
   );
 }
 
