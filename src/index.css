@@ -152,3 +152,16 @@ p {
   width: 300px;
   border-radius: 8px;
 }
+
+.button-icone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: .5em;
+  background-color: #4943DA;
+  padding: .6em;
+  color: white;
+  margin-bottom: 1em;
+  font-size: 16px;
+}
