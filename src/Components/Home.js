@@ -45,7 +45,7 @@ const Home = () => {
                                 <h2 className="about-company">About Company:</h2>
                                 <h3 className="about-us">About us</h3>
                                 <p className="about-text">
-                                    {jobDetailsFromCompany}
+                                    {readMore ? jobDetailsFromCompany : `${jobDetailsFromCompany.substring(0, 200)}...`}
                                 </p>
                             </div>
                             <div className="founder-info">
