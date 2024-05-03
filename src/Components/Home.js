@@ -52,6 +52,12 @@ const Home = () => {
                             </div>
                             <a href="#" className="job-link">view job</a>
 
+                            {minExp ? (
+                                <div className="skills-info">
+                                    <h4 className="experience">Minimum Experience</h4>
+                                    <p className="year">{minExp} year</p>
+                                </div>
+                            ) : null}
                         </div>
                         <button className="button">
                             ⚡
