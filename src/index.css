@@ -136,3 +136,15 @@ p {
   color: #8b8b8b;
   margin-top: .5em;
 }
+
+/* Buttons */
+
+.button {
+  margin-bottom: 1em;
+  width: 300px;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: .7em;
+  background-color: rgb(85, 239, 196);
+  border: none;
+}
