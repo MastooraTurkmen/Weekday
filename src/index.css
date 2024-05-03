@@ -57,3 +57,28 @@ p {
   align-items: start;
   gap: .5em;
 }
+
+.sub-info {
+  display: flex;
+  flex-direction: column;
+  gap: .3em;
+}
+
+.sub-info .company {
+  letter-spacing: .1em;
+  color: #8b8b8b;
+}
+
+.sub-info h4 {
+  margin: 0;
+}
+
+.rol,
+.city {
+  text-transform: capitalize;
+}
+
+.sub-info .rol,
+.sub-info .city {
+  font-weight: 200;
+}
