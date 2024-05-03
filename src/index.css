@@ -118,3 +118,21 @@ p {
   -webkit-background-clip: text;
   background-clip: text;
 }
+
+.job-link {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  color: #4943da;
+}
+
+.skills-info {
+  display: flex;
+  flex-direction: column;
+  gap: .3em;
+}
+
+.experience {
+  color: #8b8b8b;
+  margin-top: .5em;
+}
