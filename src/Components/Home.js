@@ -46,7 +46,12 @@ const Home = () => {
                                     {jobDetailsFromCompany}
                                 </p>
                             </div>
-                            
+                            <div className="founder-info">
+                                <h3 className="founder">Founder/Recruiter profiles:</h3>
+                                <p className="founder-name">John Doe</p>
+                            </div>
+                            <a href="#" className="job-link">view job</a>
+
                         </div>
                         <button className="button">
                             ⚡
