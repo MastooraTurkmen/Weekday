@@ -5,3 +5,23 @@ h4,
 p {
   margin: 0;
 }
+
+/* card section */
+
+.card {
+  border: 2px solid rgb(236, 231, 231);
+  width: 320px;
+  border-radius: 1.2em;
+  padding: 0 1.6em;
+  transition: 1s;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4em;
+  margin: 2em;
+  font-family: "Lora", serif;
+}
+
