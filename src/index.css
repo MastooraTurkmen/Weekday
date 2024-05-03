@@ -82,3 +82,23 @@ p {
 .sub-info .city {
   font-weight: 200;
 }
+
+.sub-info .city {
+  font-size: 15px;
+}
+
+.salary {
+  margin: .7em 0;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.about-company {
+  padding: .2em 0;
+  font-size: 20px;
+}
