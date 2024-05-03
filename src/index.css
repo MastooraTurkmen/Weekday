@@ -141,10 +141,14 @@ p {
 
 .button {
   margin-bottom: 1em;
-  width: 300px;
-  border-radius: 8px;
   font-size: 16px;
   padding: .7em;
   background-color: rgb(85, 239, 196);
+}
+
+.button,
+.button-icone {
   border: none;
+  width: 300px;
+  border-radius: 8px;
 }
