@@ -23,7 +23,7 @@ const Home = ({ filteredData }) => {
             setDataToDisplay(filteredData);
         }
     }, [filteredData]);
-    
+
     // For handleScroll for infinite scroll
     const handleScroll = () => {
         if (window.innerHeight + document.documentElement.scrollTop + 1 > document.documentElement.scrollHeight) {
@@ -39,13 +39,13 @@ const Home = ({ filteredData }) => {
 
     return (
         <div className="card-container">
-            {search.length > 0 ? (search.map((item) => {
+            {dataToDisplay.length > 0 ? (dataToDisplay.map((item) => {
                 return <CartItem key={item.jdUid} {...item} />
             })) : (
                 !isLoading && <h2>No Jobs available for this category at the moment</h2>
             )}
             {isLoading && <Loading />}
-        </div>
+        </div >
     )
 }
 
