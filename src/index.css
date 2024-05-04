@@ -143,18 +143,18 @@ p {
 
 /* Buttons */
 
-.button {
-  margin-bottom: 1em;
-  font-size: 16px;
-  padding: .7em;
-  background-color: rgb(85, 239, 196);
-}
-
 .button,
 .button-icone {
-  border: none;
-  width: 300px;
   border-radius: 8px;
+  width: 100%;
+  border: none;
+  margin-bottom: 1em;
+  font-size: 16px;
+}
+
+.button {
+  padding: 0.7em;
+  background-color: rgb(85, 239, 196);
 }
 
 .button-icone {
@@ -162,15 +162,11 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: .5em;
-  background-color: #4943DA;
-  padding: .6em;
+  gap: 0.5em;
+  background-color: #4943da;
+  padding: 0.6em;
   color: white;
-  margin-bottom: 1em;
-  font-size: 16px;
 }
-
-/* logo */
 
 .logo {
   width: 30px;
