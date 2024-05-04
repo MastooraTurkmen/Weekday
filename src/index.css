@@ -16,7 +16,7 @@ p {
 
 .card {
   border: 2px solid rgb(236, 231, 231);
-  width: 320px;
+  max-width: 400px;
   border-radius: 1.2em;
   padding: 0 1.6em;
   transition: 1s;
@@ -24,10 +24,11 @@ p {
 
 .card-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 4em;
-  margin: 2em;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2.5em;
+  margin: 4em;
   font-family: "Lora", serif;
 }
 
@@ -41,18 +42,13 @@ p {
 }
 
 .time-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   border: 1px solid rgb(192, 184, 184);
   border-radius: 1em;
   margin: 1em 0em;
-  height: 2em;
-  width: 10em;
-  padding: 0em 1em;
+  width: 40%;
+  padding: 0.3em 1em;
   color: gray;
-  gap: .5em;
+  gap: 0.5em;
   font-size: 12px;
 }
 
