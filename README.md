@@ -6,8 +6,16 @@ In this project, I used ReactJS, CSS, and also Responsive Design which works for
 
 ### Run The App Locally
 
+**npm**
+
 ```bash
 npm run install && npm start
+```
+
+**pnpm**
+
+```bash
+pnpm run install && pnpm start
 ```
 
 ### For build and Deployment for create-react-app
