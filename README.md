@@ -9,13 +9,19 @@ In this project, I used ReactJS, CSS, and also Responsive Design which works for
 **npm**
 
 ```bash
-npm run install && npm start
+npm install && npm start
 ```
 
 **pnpm**
 
 ```bash
-pnpm run install && pnpm start
+pnpm install && pnpm start
+```
+
+**yarn**
+
+```bash
+yarn install && yarn start
 ```
 
 ### For build and Deployment for create-react-app
