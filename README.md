@@ -30,3 +30,9 @@ Add this to package.json for deployment
 6. Now the project is Live.
 
 ---
+
+### React Select: For multi-select
+
+```bash
+npm install react-select
+```
