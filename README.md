@@ -54,3 +54,15 @@ I hardcoded the filters into **_data.js_** for the jobs listing based on:
 Number of Employees wasn't in the API, so I didn't filter that.
 
 ---
+
+# Cloning the project 🪛
+
+```bash
+# Clone this repository
+$ git clone https://github.com/MastooraTurkmen/Weekday.git
+
+# Go inside the repository
+$ cd Weekday
+```
+
+---
