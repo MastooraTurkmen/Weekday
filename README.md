@@ -2,6 +2,8 @@
 
 In this project, I used ReactJS, CSS, and also Responsive Design which works for different screen sizes.
 
+[Live Link](https://weekday-frontend-assignment.netlify.app/)
+
 ### Run The App Locally
 
 ```bash
