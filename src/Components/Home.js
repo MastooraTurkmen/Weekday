@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import useFetch from './useFetch';
+import CartItem from './CartItem';
 
 const Home = () => {
     const { search, isLoading } = useFetch()
