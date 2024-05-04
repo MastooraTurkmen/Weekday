@@ -85,6 +85,11 @@ p {
   font-size: 15px;
 }
 
+.rol,
+.city {
+  text-transform: capitalize;
+}
+
 .salary {
   margin: 0.7em 0;
 }
