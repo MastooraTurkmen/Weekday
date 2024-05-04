@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react'
 const useFetch = () => {
     const [search, setSearch] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
+    const [page, setPage] = useState(10);
 
-    // fetch data from API
     const fetchData = async () => {
         try {
             setIsLoading(true);
@@ -12,7 +12,7 @@ const useFetch = () => {
             myHeaders.append("Content-Type", "application/json");
 
             const body = JSON.stringify({
-                "limit": 10,
+                "limit": page,
                 "offset": 0,
             });
 
@@ -37,11 +37,12 @@ const useFetch = () => {
         }
     };
 
+    // fetch the data for infinte scroll
     useEffect(() => {
         fetchData();
-    }, []);
+    }, [page]);
 
-    return { search, isLoading }
+    return { search, isLoading, setPage, setSearch, setIsLoading }
 }
 
 export default useFetch
