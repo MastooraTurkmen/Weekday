@@ -192,6 +192,18 @@ p {
   filter: blur(2px);
 }
 
+/* Input */
+
+.input {
+  padding: .64rem;
+  border-radius: 3px;
+  border: 1px solid hsl(0, 0%, 80%);
+}
+
+.input::placeholder {
+  font-weight: 500;
+}
+
 /* Loading */
 
 @keyframes spinner {
