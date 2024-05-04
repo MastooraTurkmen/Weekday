@@ -58,8 +58,12 @@ const CartItem = ({
 
             {/* Buttons */}
             <button className="button">
-                ⚡
-                Easy Apply
+                ⚡ Easy Apply
+            </button>
+            <button src={jdLink} className='button-icone'>
+                <img src="" alt='user-logo' className="user-logo" />
+                <img src="" alt='user-logo' className="user-logo" />
+                Unlock referral asks
             </button>
         </div>
     )
