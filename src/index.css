@@ -28,7 +28,7 @@ p {
   flex-wrap: wrap;
   align-items: center;
   gap: 2.5em;
-  margin: 4em;
+  margin: 4em 1.5em;
   font-family: "Lora", serif;
 }
 
