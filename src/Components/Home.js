@@ -23,6 +23,19 @@ const Home = ({ filteredData }) => {
             setDataToDisplay(filteredData);
         }
     }, [filteredData]);
+    
+    // For handleScroll for infinite scroll
+    const handleScroll = () => {
+        if (window.innerHeight + document.documentElement.scrollTop + 1 > document.documentElement.scrollHeight) {
+            setIsLoading(true)
+            setPage((prev) => prev + 4)
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll)
+        return () => window.removeEventListener('scroll', handleScroll)
+    }, [])
 
     return (
         <div className="card-container">
