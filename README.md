@@ -27,7 +27,10 @@ Add this to package.json for deployment
 3. From there select **_Deploy with Github_**.
    ![alt text](image.png)
 4. Then write your project name and select it.
+   ![alt text](image-1.png)
 5. After selecting here you can see that the project **_Review configuration for Weekday_** and then select the **_Deploy Weekday_** Button.
+   ![alt text](image-2.png)
+   ![alt text](image-3.png)
 6. Now the project is Live.
 
 ---
