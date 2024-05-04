@@ -53,7 +53,7 @@ const CartItem = ({
                         <h4 className="experience">Minimum Experience</h4>
                         <p className="year">{minExp} year</p>
                     </div>
-                ) : null}
+                ) : <div className='white-space'></div>}
             </div>
 
             {/* Buttons */}
