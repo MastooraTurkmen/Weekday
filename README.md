@@ -36,3 +36,21 @@ Add this to package.json for deployment
 ```bash
 npm install react-select
 ```
+
+### Filters
+
+I hardcoded the filters into **_data.js_** for the jobs listing based on:
+
+- Min experience
+- Company name
+- Location
+- Remote/on-site
+- Tech stack
+- Role
+- Min base pay
+
+###### Note
+
+Number of Employees wasn't in the API, so I didn't filter that.
+
+---
