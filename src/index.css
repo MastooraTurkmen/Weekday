@@ -137,6 +137,10 @@ p {
   margin-top: .5em;
 }
 
+.white-space {
+  padding: 1.5em;
+}
+
 /* Buttons */
 
 .button {
