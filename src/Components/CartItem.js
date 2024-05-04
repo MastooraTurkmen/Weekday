@@ -20,8 +20,7 @@ const CartItem = ({
         <div className="card">
             <header className="job">
                 <div className="time-container">
-                    <span>⏳</span>
-                    <p className="time">Posted 10 days ago</p>
+                    <p className="time">⏳Posted 10 days ago</p>
                 </div>
                 <div className="job-info">
                     <img src={logoUrl} alt="logo" className="logo" />
