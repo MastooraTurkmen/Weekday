@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import logo from '../assets/person-log.jpg'
 
 const CartItem = ({
     jdLink,
@@ -61,8 +62,8 @@ const CartItem = ({
                 ⚡ Easy Apply
             </button>
             <button src={jdLink} className='button-icone'>
-                <img src="" alt='user-logo' className="user-logo" />
-                <img src="" alt='user-logo' className="user-logo" />
+                <img src={logo} alt='user-logo' className="user-logo" />
+                <img src={logo} alt='user-logo' className="user-logo" />
                 Unlock referral asks
             </button>
         </div>
