@@ -66,3 +66,23 @@ $ cd Weekday
 ```
 
 ---
+
+# Languages and Tools are used 🛠
+
+1. **Languages && Technology Stack**
+
+   - [HTML5](https://github.com/topics/html5)
+   - [CSS3](https://github.com/topics/css3)
+   - [JavaScript](https://github.com/topics/javascript)
+   - [ReactJs](https://github.com/topics/reactjs)
+   - [API](https://github.com/topics/api)
+
+2. **Tools** 🔧
+   - [Chrome](https://github.com/topics/chrome)
+   - [Figma](https://github.com/topics/figma)
+   - [VSCode](https://github.com/topics/vscode)
+   - [Netlify](https://github.com/topics/netlify)
+   - [GitHub](https://github.com/topics/github)
+   - [Npm](https://github.com/topics/npm)
+
+---
