@@ -25,13 +25,14 @@ Add this to package.json for deployment
 1. How do we deploy our project to the Netlify site?
 2. I use [Netlify App](https://app.netlify.com/) for deploying my projects.
 3. From there select **_Deploy with Github_**.
-   ![alt text](image.png)
+   ![Netlify-Screenshot](./Screenshots/Netlify-Screenshot.png)
 4. Then write your project name and select it.
-   ![alt text](image-1.png)
+   ![Netlify-Screenshot](./Screenshots/Netlify-Screenshot-1.png)
 5. After selecting here you can see that the project **_Review configuration for Weekday_** and then select the **_Deploy Weekday_** Button.
-   ![alt text](image-2.png)
-   ![alt text](image-3.png)
+   ![Netlify-Screenshot](./Screenshots/Netlify-Screenshot-2.png)
+   ![Netlify-Screenshot](./Screenshots/Netlify-Screenshot-3.png)
 6. Now the project is Live.
+   ![Netlify-Screenshot](./Screenshots/Netlify-Screenshot-4.png)
 
 ---
 
