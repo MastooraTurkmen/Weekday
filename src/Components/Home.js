@@ -3,8 +3,26 @@ import useFetch from './useFetch';
 import CartItem from './CartItem';
 import Loading from './Loading';
 
-const Home = () => {
-    const { search, isLoading } = useFetch()
+const Home = ({ filteredData }) => {
+    // get the data from useFetch
+    const { search, isLoading, setPage, setIsLoading } = useFetch()
+    const [dataToDisplay, setDataToDisplay] = useState([]);
+
+    // when loading is not true display data
+    useEffect(() => {
+        if (!isLoading) {
+            setDataToDisplay(search);
+        } else {
+            setDataToDisplay(filteredData)
+        }
+    }, [search]);
+
+    // filter data 
+    useEffect(() => {
+        if (filteredData) {
+            setDataToDisplay(filteredData);
+        }
+    }, [filteredData]);
 
     return (
         <div className="card-container">

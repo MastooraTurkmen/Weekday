@@ -20,6 +20,7 @@ const CartItem = ({
         <div className="card">
             <header className="job">
                 <div className="time-container">
+                    {/* the post time wasn't in the API */}
                     <p className="time">⏳Posted 10 days ago</p>
                 </div>
                 <div className="job-info">
@@ -44,6 +45,7 @@ const CartItem = ({
                 </div>
                 <div className="founder-info">
                     <h3 className="founder">Founder/Recruiter profiles:</h3>
+                    {/* the founder name wasnt in the API, so I added a sample name */}
                     <p className="founder-name">John Doe</p>
                 </div>
                 <a href="#" className="job-link">view job</a>
