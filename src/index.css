@@ -57,27 +57,23 @@ p {
   display: flex;
   flex-direction: row;
   align-items: start;
-  gap: .5em;
+  gap: 0.5em;
 }
 
 .sub-info {
   display: flex;
   flex-direction: column;
-  gap: .3em;
+  gap: 0.3em;
 }
 
-.sub-info .company {
-  letter-spacing: .1em;
+.sub-info .company,
+.Skills {
+  letter-spacing: 0.1em;
   color: #8b8b8b;
 }
 
 .sub-info h4 {
   margin: 0;
-}
-
-.rol,
-.city {
-  text-transform: capitalize;
 }
 
 .sub-info .rol,
@@ -90,7 +86,7 @@ p {
 }
 
 .salary {
-  margin: .7em 0;
+  margin: 0.7em 0;
 }
 
 .about {
@@ -101,7 +97,7 @@ p {
 }
 
 .about-company {
-  padding: .2em 0;
+  padding: 0.2em 0;
   font-size: 20px;
 }
 
@@ -131,12 +127,26 @@ p {
 .skills-info {
   display: flex;
   flex-direction: column;
-  gap: .3em;
+  gap: 0.3em;
+}
+
+.Skills-name {
+  background-color: #d9fed3;
+  text-align: center;
+  font-size: 13px;
+  padding: 0.2em 1em;
+  border-radius: 9px;
+}
+
+.skills-sub-info {
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
 }
 
 .experience {
   color: #8b8b8b;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 .white-space {
