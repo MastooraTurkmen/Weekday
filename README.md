@@ -108,12 +108,28 @@ $ cd Weekday
 
 ---
 
-## Author 👩🏻‍💻
+## Authors 👩🏻‍💻👩🏻‍💻👩🏻‍💻
 
 **Mastoora Turkmen**  
 [LinkedIn](https://www.linkedin.com/in/mastoora-turkmen/)
 <br>
 [Github](https://github.com/MastooraTurkmen/)
 <br>
-[Twitter](https://twitter.com/MastooraJ22)
+[Twitter](https://x.com/MastooraJ22)
+<br>
+
+**Muhammad Turkmen**  
+[LinkedIn](https://www.linkedin.com/in/muhammad-turkmen-792498272/)
+<br>
+[Github](https://github.com/MuhammadTurkmen/)
+<br>
+[Twitter](https://x.com/MuhammadJa11667)
+<br>
+
+**Zainab Turkmen**  
+[LinkedIn](https://www.linkedin.com/in/zainab-turkmen-719183271/)
+<br>
+[Github](https://github.com/ZainabTurkmen/)
+<br>
+[Twitter](https://x.com/ZainabTurkmen)
 <br>
