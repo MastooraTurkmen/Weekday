@@ -1,4 +1,4 @@
-# Weekday: Frontend Interview Assignment
+# Weekday: Frontend Weekday Project
 
 In this project, I used ReactJS, CSS, and also Responsive Design which works for different screen sizes.
 
