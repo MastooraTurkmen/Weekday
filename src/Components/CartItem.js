@@ -18,9 +18,9 @@ const CartItem = ({
 
     return (
         <div className="card">
+            {/* header */}
             <header className="job">
                 <div className="time-container">
-                    {/* the post time wasn't in the API */}
                     <p className="time">⏳Posted 10 days ago</p>
                 </div>
                 <div className="job-info">
@@ -40,7 +40,9 @@ const CartItem = ({
                     <h2 className="about-company">About Company:</h2>
                     <h3 className="about-us">About us</h3>
                     <p className="about-text">
-                        {readMore ? jobDetailsFromCompany : `${jobDetailsFromCompany.substring(0, 200)}...`}
+                        {readMore ? jobDetailsFromCompany : (
+                            `${jobDetailsFromCompany.substring(0, 200)}...`
+                        )}
                     </p>
                 </div>
                 <div className="founder-info">
