@@ -1,3 +1,33 @@
+const Design = [
+    {
+        value: 'Designer',
+        label: 'Designer'
+    },
+    {
+        value: 'Design Manager',
+        label: 'Design Manager'
+    },
+    {
+        value: 'Graphic Designer',
+        label: 'Graphic Designer'
+    },
+    {
+        value: 'Product Designer',
+        label: 'Product Designer'
+    }
+]
+
+const operations = [
+    {
+        value: 'Operations Manager',
+        label: 'Operations Manager'
+    },
+    {
+        value: `Founder's Office / Chief Of Staff`,
+        label: `Founder's Office / Chief Of Staff`
+    }
+]
+
 const enginears = [
     {
         value: 'Frontend',
@@ -71,29 +101,6 @@ const enginears = [
         value: 'Data-Infrastruction',
         label: 'Data-Infrastruction'
     }
-
-
-
-]
-
-const Design = [
-    {
-        value: 'Designer',
-        label: 'Designer'
-    },
-    {
-        value: 'Design Manager',
-        label: 'Design Manager'
-    },
-    {
-        value: 'Graphic Designer',
-        label: 'Graphic Designer'
-    },
-    {
-        value: 'Product Designer',
-        label: 'Product Designer'
-    }
-
 ]
 
 const product = [
@@ -102,33 +109,6 @@ const product = [
         label: 'Product Manager'
     }
 ]
-
-const operations = [
-    {
-        value: 'Operations Manager',
-        label: 'Operations Manager'
-    },
-    {
-        value: `Founder's Office / Chief Of Staff`,
-        label: `Founder's Office / Chief Of Staff`
-    }
-]
-
-const sales = [
-    {
-        value: 'Sales Development Representativ',
-        label: 'Sales Development Representativ'
-    },
-    {
-        value: 'Account Executive',
-        label: 'Account Executive'
-    },
-    {
-        value: 'Account Manager',
-        label: 'Account Manager'
-    }
-]
-
 
 const marketing = [
     {
@@ -146,6 +126,22 @@ const marketing = [
     {
         value: 'Product Marketing Manager',
         label: 'Product Marketing Manager'
+    }
+]
+
+
+const sales = [
+    {
+        value: 'Sales Development Representativ',
+        label: 'Sales Development Representativ'
+    },
+    {
+        value: 'Account Executive',
+        label: 'Account Executive'
+    },
+    {
+        value: 'Account Manager',
+        label: 'Account Manager'
     }
 ]
 
@@ -341,21 +337,6 @@ export const experience = [
     }
 ]
 
-export const remote = [
-    {
-        value: 'Remote',
-        label: 'Remote'
-    },
-    {
-        value: 'Hybrid',
-        label: 'Hybrid'
-    },
-    {
-        value: 'In-office',
-        label: 'In-office'
-    }
-]
-
 export const minJdSalary = [
     {
         value: '0 USD',
@@ -393,4 +374,19 @@ export const minJdSalary = [
         value: '100 USD',
         label: '100 USD'
     },
+]
+
+export const remote = [
+    {
+        value: 'Remote',
+        label: 'Remote'
+    },
+    {
+        value: 'Hybrid',
+        label: 'Hybrid'
+    },
+    {
+        value: 'In-office',
+        label: 'In-office'
+    }
 ]
